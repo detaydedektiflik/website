@@ -3,17 +3,17 @@ var yil = tarih.getFullYear();
 document.querySelector('.copyright').innerText = '\u00A9 '+yil+' '+document.querySelector('.copyright').innerText;
 element = document.querySelectorAll('[href="#tel"]');
 kosul = element.length;
-element[0].innerText = atob('MDUzMCAyMTkgNDUgNDA=');
 for(i=0;i<kosul;i++)
 {
+	element[i].innerText = atob('MDUzMCAyMTkgNDUgNDA=');
 	element[i].setAttribute('href',atob('dGVsOjA1MzAgMjE5IDQ1IDQw'));
 }
 ///////////////////////////
 element = document.querySelectorAll('[href="#tel2"]');
 kosul = element.length;
-element[0].innerText = atob('MDUzMiAwNjUgNzggMTY=');
 for(i=0;i<kosul;i++)
 {
+	element[i].innerText = atob('MDUzMiAwNjUgNzggMTY=');
 	element[i].setAttribute('href',atob('dGVsOjA1MzIgMDY1IDc4IDE2'));
 }
 ///////////////////////////
