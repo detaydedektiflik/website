@@ -8,7 +8,15 @@ for(i=0;i<kosul;i++)
 {
 	element[i].setAttribute('href',atob('dGVsOjA1MzAgMjE5IDQ1IDQw'));
 }
-
+///////////////////////////
+element = document.querySelectorAll('[href="#tel2"]');
+kosul = element.length;
+element[0].innerText = atob('MDUzMiAwNjUgNzggMTY=');
+for(i=0;i<kosul;i++)
+{
+	element[i].setAttribute('href',atob('dGVsOjA1MzIgMDY1IDc4IDE2'));
+}
+///////////////////////////
 element = document.querySelectorAll('[href="#mail"]');
 kosul = element.length;
 for(i=0;i<kosul;i++)
