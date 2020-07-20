@@ -5,8 +5,8 @@ element = document.querySelectorAll('[href="#tel"]');
 kosul = element.length;
 for(i=0;i<kosul;i++)
 {
-	element[i].innerText = atob('MDUzMCAyMTkgNDUgNDA=');
-	element[i].setAttribute('href',atob('dGVsOjA1MzAgMjE5IDQ1IDQw'));
+	element[i].innerText = atob('MDIxNiAzNDIgOTQgOTc=');
+	element[i].setAttribute('href',atob('dGVsOjAyMTYgMzQyIDk0IDk3'));
 }
 ///////////////////////////
 element = document.querySelectorAll('[href="#tel2"]');
