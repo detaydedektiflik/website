@@ -6,7 +6,7 @@ kosul = element.length;
 for(i=0;i<kosul;i++)
 {
 	element[i].innerText = atob('MDIxNiAzNDIgOTQgOTc=');
-	element[i].setAttribute('href',atob('dGVsOjAyMTYgMzQyIDk0IDk3'));
+	element[i].setAttribute('href',atob('dGVsOjA1NTIgNzA3IDYwIDMy'));
 }
 ///////////////////////////
 element = document.querySelectorAll('[href="#tel2"]');
