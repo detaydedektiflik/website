@@ -1,4 +1,4 @@
-window.location.href='indeks.html'
+window.location.href='indeks.html';
 var tarih = new Date();
 var yil = tarih.getFullYear();
 document.querySelector('.copyright').innerText = '\u00A9 '+yil+' '+document.querySelector('.copyright').innerText;
